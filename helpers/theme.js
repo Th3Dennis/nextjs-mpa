@@ -4,18 +4,18 @@ import { createTheme } from "@material-ui/core/styles";
 const themeConstants = {
   paper: "#F9F9F9",
   primary: {
-    main: "#fff",
-    dark: "#e5e5e5",
+    main: "#488286",
+    dark: "#305252",
   },
   secondary: {
-    main: "#212121",
-    dark: "#3A3A3A",
+    main: "#77878B",
+    dark: "#373E40",
   },
   error: {
     main: "#b22222",
     dark: "#8b0000",
   },
-  fg: { main: "#fff", dark: "rgba(55, 65, 81, 1)" },
+  fg: { main: "#000", dark: "rgba(55, 65, 81, 1)" },
   breakpoints: {
     xs: 0,
     mb: 350,

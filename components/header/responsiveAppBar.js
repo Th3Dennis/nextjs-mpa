@@ -14,7 +14,12 @@ import MenuItem from "@mui/material/MenuItem";
 import AdbIcon from "@mui/icons-material/Adb";
 import Link from "next/link";
 
-const pages = ["StyleGuide", "Pricing", "Blog"];
+
+const pages = [
+  ["style_guide", "Style Guide"],
+  ["style_guide", "Style Guide"],
+  ["style_guide", "Style Guide"],
+];
 const settings = ["Profile", "Account", "Dashboard", "Logout"];
 
 const ResponsiveAppBar = () => {
@@ -88,17 +93,13 @@ const ResponsiveAppBar = () => {
                 display: { xs: "block", md: "none" },
               }}
             >
-              {/* {pages.map((page) => (
-                <Button
-                  key={page}
-                  onClick={handleCloseNavMenu}
-                  sx={{ my: 2, color: "white", display: "block" }}
-                >
-                  <Link href={`/${page}`}>
-                    <a>{page}</a>
+              {pages.map((page) => (
+                <MenuItem key={page[0]} onClick={handleCloseNavMenu}>
+                  <Link href={`/${page[0]}`}>
+                    <Typography textAlign="center">{page[1]}</Typography>
                   </Link>
-                </Button>
-              ))} */}
+                </MenuItem>
+              ))}
             </Menu>
           </Box>
           <AdbIcon sx={{ display: { xs: "flex", md: "none" }, mr: 1 }} />
@@ -123,12 +124,12 @@ const ResponsiveAppBar = () => {
           <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
             {pages.map((page) => (
               <Button
-                key={page}
+                key={page[0]}
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: "white", display: "block" }}
               >
-                <Link href={`/${page}`}>
-                  <a>{page}</a>
+                <Link href={`/${page[0]}`}>
+                  <a>{page[1]}</a>
                 </Link>
               </Button>
             ))}

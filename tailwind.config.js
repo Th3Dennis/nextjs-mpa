@@ -11,12 +11,12 @@ fontFamily['sans'] = [
 const themeConstants = {
   paper: "#F9F9F9",
   primary: {
-    main: "#fff",
-    dark: "#e5e5e5",
+    main: "#488286",
+    dark: "#305252",
   },
   secondary: {
-    main: "#212121",
-    dark: "#3A3A3A",
+    main: "#77878B",
+    dark: "#373E40",
   },
   error: {
     main: "#b22222",
