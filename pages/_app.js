@@ -1,6 +1,5 @@
 import { ThemeProvider } from "@emotion/react";
 import Layout from "../components/_layout";
-import "../styles/globals.css";
 import { theme } from "../helpers/theme";
 
 function MyApp({ Component, pageProps }) {
