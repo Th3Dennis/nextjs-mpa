@@ -1,6 +1,6 @@
 import Head from "next/head";
-import Header from "./Header/header";
-import Footer from "./Footer/footer";
+import Header from "./header/header";
+import Footer from "./footer/footer";
 import { CssBaseline } from "@mui/material";
 
 export default function Layout(props) {
