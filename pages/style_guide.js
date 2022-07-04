@@ -5,7 +5,7 @@ export default function StyleGuide() {
   return (
     <>
       <Grid container spacing={3} sx={{ mt: 3, mx: 5 }}>
-        <Grid item md={7}>
+        <Grid item md={6}>
           <Box sx={{ mt: 0 }}>
             <Typography variant="h4" sx={{ fontWeight: "bold" }}>
               Font: Roboto
@@ -62,7 +62,7 @@ export default function StyleGuide() {
             </Typography>
           </Box>
         </Grid>
-        <Grid item md={1}>
+        <Grid item md={2}>
           <Divider orientation="vertical" flexItem />
         </Grid>
         <Grid item md={4}>
