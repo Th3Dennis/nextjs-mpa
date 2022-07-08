@@ -1,14 +1,14 @@
-import { ThemeProvider } from "@emotion/react";
 import Layout from "../components/_layout";
-import { theme } from "../helpers/theme";
+import 'bootstrap/dist/css/bootstrap.css'
+import '../styles/bootstrap.css'
+
+
 
 function MyApp({ Component, pageProps }) {
   return (
-    <ThemeProvider theme={theme}>
     <Layout>
       <Component {...pageProps} />
     </Layout>
-    </ThemeProvider>
   );
 }
 
