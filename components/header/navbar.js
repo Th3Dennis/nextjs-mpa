@@ -34,9 +34,9 @@ export default function Navbar() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link href={"/"}>
+              <Link href={"/copyright"}>
                 <a className="nav-link" tabIndex="-1" aria-disabled="true">
-                  #
+                  Copyright
                 </a>
               </Link>
             </li>

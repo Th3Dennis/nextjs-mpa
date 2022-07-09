@@ -121,42 +121,134 @@ export default function style_guide() {
         <hr />
         <div className="row my-5">
           <div className="col-6">
-          <h1>Example heading <span className="badge bg-primary">New</span></h1>
-<h2>Example heading <span className="badge bg-secondary">New</span></h2>
-<h3>Example heading <span className="badge bg-success">New</span></h3>
-<h4>Example heading <span className="badge bg-danger">New</span></h4>
-<h5>Example heading <span className="badge bg-warning">New</span></h5>
-<h6>Example heading <span className="badge bg-info">New</span></h6>
-
-            </div>
-            <div className="col-6">
-
-              <div className="row">
-                <div className="col-12">
-                <button type="button" className="btn btn-primary">Primary</button>
-<button type="button" className="btn btn-secondary">Secondary</button>
-<button type="button" className="btn btn-success">Success</button>
-<button type="button" className="btn btn-danger">Danger</button>
-<button type="button" className="btn btn-warning">Warning</button>
-<button type="button" className="btn btn-info">Info</button>
-<button type="button" className="btn btn-light">Light</button>
-<button type="button" className="btn btn-dark">Dark</button>
-
-                  </div>
-                  <div className="col-12 mt-5 ">
-                  <button type="button" className="btn btn-outline-primary">Primary</button>
-<button type="button" className="btn btn-outline-secondary">Secondary</button>
-<button type="button" className="btn btn-outline-success">Success</button>
-<button type="button" className="btn btn-outline-danger">Danger</button>
-<button type="button" className="btn btn-outline-warning">Warning</button>
-<button type="button" className="btn btn-outline-info">Info</button>
-<button type="button" className="btn btn-outline-light">Light</button>
-<button type="button" className="btn btn-outline-dark">Dark</button>
-                  </div>
-                  </div>
-
+            <h1>
+              Example heading <span className="badge bg-primary">New</span>
+            </h1>
+            <h2>
+              Example heading <span className="badge bg-secondary">New</span>
+            </h2>
+            <h3>
+              Example heading <span className="badge bg-success">New</span>
+            </h3>
+            <h4>
+              Example heading <span className="badge bg-danger">New</span>
+            </h4>
+            <h5>
+              Example heading <span className="badge bg-warning">New</span>
+            </h5>
+            <h6>
+              Example heading <span className="badge bg-info">New</span>
+            </h6>
+          </div>
+          <div className="col-6">
+            <div className="row">
+              <div className="col-12">
+                <button type="button" className="btn btn-primary">
+                  Primary
+                </button>
+                <button type="button" className="btn btn-secondary">
+                  Secondary
+                </button>
+                <button type="button" className="btn btn-success">
+                  Success
+                </button>
+                <button type="button" className="btn btn-danger">
+                  Danger
+                </button>
+                <button type="button" className="btn btn-warning">
+                  Warning
+                </button>
+                <button type="button" className="btn btn-info">
+                  Info
+                </button>
+                <button type="button" className="btn btn-light">
+                  Light
+                </button>
+                <button type="button" className="btn btn-dark">
+                  Dark
+                </button>
+              </div>
+              <div className="col-12 mt-5 ">
+                <button type="button" className="btn btn-outline-primary">
+                  Primary
+                </button>
+                <button type="button" className="btn btn-outline-secondary">
+                  Secondary
+                </button>
+                <button type="button" className="btn btn-outline-success">
+                  Success
+                </button>
+                <button type="button" className="btn btn-outline-danger">
+                  Danger
+                </button>
+                <button type="button" className="btn btn-outline-warning">
+                  Warning
+                </button>
+                <button type="button" className="btn btn-outline-info">
+                  Info
+                </button>
+                <button type="button" className="btn btn-outline-light">
+                  Light
+                </button>
+                <button type="button" className="btn btn-outline-dark">
+                  Dark
+                </button>
+              </div>
+              <div className="col-12 mt-5">
+                <div className="spinner-border text-primary" role="status">
+                  <span className="visually-hidden">Loading...</span>
+                </div>
+                <div className="spinner-border text-secondary" role="status">
+                  <span className="visually-hidden">Loading...</span>
+                </div>
+                <div className="spinner-border text-success" role="status">
+                  <span className="visually-hidden">Loading...</span>
+                </div>
+                <div className="spinner-border text-danger" role="status">
+                  <span className="visually-hidden">Loading...</span>
+                </div>
+                <div className="spinner-border text-warning" role="status">
+                  <span className="visually-hidden">Loading...</span>
+                </div>
+                <div className="spinner-border text-info" role="status">
+                  <span className="visually-hidden">Loading...</span>
+                </div>
+                <div className="spinner-border text-light" role="status">
+                  <span className="visually-hidden">Loading...</span>
+                </div>
+                <div className="spinner-border text-dark" role="status">
+                  <span className="visually-hidden">Loading...</span>
+                </div>
+              </div>
+              <div className="col-12 mt-2">
+                <div className="spinner-grow text-primary" role="status">
+                  <span className="visually-hidden">Loading...</span>
+                </div>
+                <div className="spinner-grow text-secondary" role="status">
+                  <span className="visually-hidden">Loading...</span>
+                </div>
+                <div className="spinner-grow text-success" role="status">
+                  <span className="visually-hidden">Loading...</span>
+                </div>
+                <div className="spinner-grow text-danger" role="status">
+                  <span className="visually-hidden">Loading...</span>
+                </div>
+                <div className="spinner-grow text-warning" role="status">
+                  <span className="visually-hidden">Loading...</span>
+                </div>
+                <div className="spinner-grow text-info" role="status">
+                  <span className="visually-hidden">Loading...</span>
+                </div>
+                <div className="spinner-grow text-light" role="status">
+                  <span className="visually-hidden">Loading...</span>
+                </div>
+                <div className="spinner-grow text-dark" role="status">
+                  <span className="visually-hidden">Loading...</span>
+                </div>
               </div>
             </div>
+          </div>
+        </div>
       </div>
     </>
   );
