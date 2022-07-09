@@ -41,6 +41,10 @@ export default function copyright() {
           aria-labelledby="pills-home-tab"
         >
             <h3>Copyright</h3>
+            <p>
+            Copyright is the legal term used to declare and prove who owns the intellectual property (the code, text, etc.).<br/>
+            Abstract example with physical property: You buy a house, you own the house.
+            </p>
         </div>
         <div
           className="tab-pane fade"
@@ -49,6 +53,9 @@ export default function copyright() {
           aria-labelledby="pills-profile-tab"
         >
             <h3>Licenses</h3>
+            <p>Licensing is the legal term used to describe the terms under which people are allowed to use the copyrighted material.<br/>
+            Abstract example with physical property: You rent the house and the rental agreement is like a license.
+            </p>
         </div>
       </div>
     </div>
