@@ -1,5 +1,4 @@
 import Layout from "../components/_layout";
-import 'bootstrap/dist/css/bootstrap.css'
 import '../styles/bootstrap.css'
 
 
