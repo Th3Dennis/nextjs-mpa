@@ -1,9 +1,9 @@
-import ResponsiveAppBar from "./navbar";
+import Navbar from "./navbar";
 
 export default function Header({ children }) {
     return (
         <>
-        <ResponsiveAppBar/>
+        <Navbar/>
         {children}
         </>
     )
