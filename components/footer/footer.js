@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Footer({ children }) {
     return (
         <>
-        <footer className="py-3 my-4">
+        <footer className="py-3 my-5">
     <ul className="nav justify-content-center border-bottom pb-3 mb-3">
       <li className="nav-item">
         <Link href={"/legal"}>

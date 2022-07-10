@@ -47,6 +47,13 @@ export default function Navbar() {
                 </a>
               </Link>
             </li>
+            <li className="nav-item">
+              <Link href={"/animations"}>
+                <a className="nav-link" tabIndex="-1" aria-disabled="true">
+                  Animations
+                </a>
+              </Link>
+            </li>
           </ul>
         </div>
       </div>

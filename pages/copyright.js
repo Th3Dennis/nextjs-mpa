@@ -29,7 +29,7 @@ export default function copyright() {
             aria-controls="pills-licenses"
             aria-selected="false"
           >
-            Profile
+            Licenses
           </button>
         </li>
       </ul>
