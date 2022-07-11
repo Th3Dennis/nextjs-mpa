@@ -20,7 +20,7 @@ export default function Home() {
       <ScrollContainer>
         <ScrollPage>
           <Animator animation={batch(Sticky(), Fade(), MoveOut(0, -200))}>
-            <h1>What&apos;s the porpuse of this page?</h1>
+            <h1>What&apos;s the purpose of this page?</h1>
           </Animator>
         </ScrollPage>
 
