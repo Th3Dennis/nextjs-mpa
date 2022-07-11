@@ -60,7 +60,10 @@ export default function copyright() {
         </div>
       </div>
     </div>
+    <hr/>
     <div className="container mt-5">
+      <h2>Questions regarding Copyright?</h2>
+      <h3>Feel free to contact us</h3>
     <form>
               <div className="row">
                 <div className="col-sm-12 col-md-12 col-lg-6">
