@@ -16,7 +16,7 @@ export default function Home() {
   const zoomInScrollOut = batch(StickyIn(), FadeIn(), ZoomIn());
   const fadeUp = batch(Fade(), Sticky(), Move());
   return (
-    <div className=".bg-primary">
+    <div className="bg-dark text-light">
       <ScrollContainer>
         <ScrollPage>
           <Animator animation={batch(Sticky(), Fade(), MoveOut(0, -200))}>
