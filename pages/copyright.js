@@ -33,6 +33,20 @@ export default function copyright() {
             Licenses
           </button>
         </li>
+        <li className="nav-item" role="presentation">
+          <button
+            className="nav-link"
+            id="pills-questions-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#pills-questions"
+            type="button"
+            role="tab"
+            aria-controls="pills-questions"
+            aria-selected="true"
+          >
+            Questions
+          </button>
+        </li>
       </ul>
       <div className="tab-content" id="pills-tabContent">
         <div
@@ -58,11 +72,13 @@ export default function copyright() {
             Abstract example with physical property: You rent the house and the rental agreement is like a license.
             </p>
         </div>
-      </div>
-    </div>
-    <hr/>
-    <div className="container mt-5">
-      <h2>Questions regarding Copyright?</h2>
+        <div
+          className="tab-pane fade mb-3"
+          id="pills-questions"
+          role="tabpanel"
+          aria-labelledby="pills-questions-tab"
+        >
+            <h2>Questions regarding Copyright?</h2>
       <h3>Feel free to contact us</h3>
     <form>
               <div className="row">
@@ -103,6 +119,8 @@ export default function copyright() {
                 </div>
               </div>
             </form>
+        </div>
+      </div>
     </div>
     </>
   );

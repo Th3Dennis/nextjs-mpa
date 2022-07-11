@@ -12,7 +12,7 @@ export default function animations() {
           <div className="col">
             <h2>SVG animation </h2>
             <svg viewBox="0 0 50 50">
-              <rect width="10" height="10" fill="green">
+              <rect width="10" height="10" fill="blue">
                 <animate
                   attributeName="rx"
                   values="0;20;0"
