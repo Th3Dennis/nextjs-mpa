@@ -2,6 +2,7 @@ import React from "react";
 
 export default function copyright() {
   return (
+    <>
     <div className="container border border-2 mt-2 rounded">
       <ul className="nav nav-pills mb-3" id="pills-tab" role="tablist">
         <li className="nav-item" role="presentation">
@@ -59,5 +60,47 @@ export default function copyright() {
         </div>
       </div>
     </div>
+    <div className="container mt-5">
+    <form>
+              <div className="row">
+                <div className="col-sm-12 col-md-12 col-lg-6">
+                  <div className="form-group">
+                    <label htmlFor="firstName">Firstname</label>
+                    <input id="firstName" type="text" className="form-control" placeholder="Ihr Vorname" autoComplete="true"/>
+                  </div>
+                </div>
+                <div className="col-sm-12 col-md-12 col-lg-6">
+                  <div className="form-group">
+                    <label htmlFor="lastName">Lastname</label>
+                    <input id="lastName" type="text" className="form-control" placeholder="Ihr Nachname" autoComplete="true"/>
+                  </div>
+                </div>
+              </div>
+              <div className="row">
+                <div className="col-12">
+                  <div className="form-group">
+                    <label htmlFor="email">email</label>
+                    <input id="email" type="email" className="form-control" placeholder="info@example.com" autoComplete="true"/>
+                  </div>
+                </div>
+              </div>
+              <div className="row">
+                <div className="col-12">
+                  <div className="form-group">
+                    <label htmlFor="message">Your Message</label>
+                    <textarea id="message" className="form-control" placeholder="Ihre Nachricht" rows="5"></textarea>
+                  </div>
+                </div>
+              </div>
+              <div className="row mt-2">
+                <div className="col-12">
+                  <div className="form-group">
+                    <button type="submit" className="btn btn-primary">Send</button>
+                  </div>
+                </div>
+              </div>
+            </form>
+    </div>
+    </>
   );
 }
