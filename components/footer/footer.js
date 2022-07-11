@@ -8,12 +8,6 @@ export default function Footer({ children }) {
       <li className="nav-item">
         <Link href={"/legal"}>
         <a className="nav-link px-2 text-muted">Legal</a></Link></li>
-        
-      
-      <li className="nav-item"><a href="#" className="nav-link px-2 text-muted">Features</a></li>
-      <li className="nav-item"><a href="#" className="nav-link px-2 text-muted">Pricing</a></li>
-      <li className="nav-item"><a href="#" className="nav-link px-2 text-muted">FAQs</a></li>
-      <li className="nav-item"><a href="#" className="nav-link px-2 text-muted">About</a></li>
     </ul>
     <p className="text-center text-muted">© 2021 Dennis Miceli</p>
   </footer>

@@ -63,7 +63,7 @@ export default function legal() {
           <br />
           <br />
           Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen
-          Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung,
+          Seiten unterliegen dem schweizer Urheberrecht. Die Vervielfältigung,
           Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der
           Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des
           jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite
@@ -125,9 +125,6 @@ export default function legal() {
           beschriebenen Art und Weise und zu dem zuvor benannten Zweck
           einverstanden.
         </p>
-        <br />
-        Website Impressum von{" "}
-        <a href="https://www.impressum-generator.de">impressum-generator.de</a>
       </div>
     </div>
   );
